@@ -1,0 +1,31 @@
+html {}
+
+header {
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+article {
+    display: flex;
+    gap: 1rem;
+}
+
+.choice {
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    article {
+        display: block;
+    }
+    .choice {
+        margin-bottom: 1rem;
+    }
+}
